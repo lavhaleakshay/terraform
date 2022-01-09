@@ -25,7 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
@@ -36,5 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
-      - name: Terraform security scan
-        uses: triat/terraform-security-scan@v1.1
+
