@@ -2,6 +2,10 @@ name: CI
 
 on: [push]
 
+defaults:
+  run:
+    working-directory: a
+
 jobs:
   security:
 
