@@ -13,7 +13,7 @@ provider "google" {
   project = "terraform-rohit-project"
   region = "us-central1" 
   zone  = "us-central1-a"
-  #credentials = "keys.json"
+  credentials = "keys.json"
   
 }
 
