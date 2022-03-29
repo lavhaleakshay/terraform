@@ -1,0 +1,25 @@
+Create an Oracle Linux Instance
+Create an Oracle Linux instance using the Create Instance wizard.
+
+Sign in to Oracle Cloud My Services.
+Click the Menu icon menu at the upper left corner of the page and select Compute Classic.
+On the Instances page, click Create Instance.
+The Create Instance wizard starts.
+Click Customize.
+On the Image page, select the image that you want to use, and click the right arrow button.
+On the Shape page, select an appropriate shape for your instance, and click the right arrow button.
+The shape determines the number of CPUs and RAM that your instance will have.
+On the Instance page, select or enter the following. Leave the other fields at the default values.
+Name: Enter an appropriate name, or retain the default name.
+
+Label: Enter a label to help identify the instance, or retain the default.
+
+SSH Keys:
+
+Click Add SSH Public Key.
+
+Enter a name for the SSH public key.
+
+Click Select File and navigate to the folder where your SSH public key is saved, or paste the public key in the Value field.
+
+Click Add.
