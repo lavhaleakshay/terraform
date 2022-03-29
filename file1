@@ -1,0 +1,13 @@
+Note: You can also use the application GUI to create SSH keys or import existing keys for use with a selected user account. For instructions, see Creating SSH Keys.
+Create a .ssh in your home directory
+Create a .ssh folder in your user account's home directory if it does not exist:
+
+$ mkdir /home/username/.ssh
+Go to the .ssh folder and continue:
+
+$ cd /home/username/.ssh
+Run ssh-keygen to generate an SSH key-pair
+Run the following command in the .ssh folder. The program prompts you for the key-pair's filename. Press ENTER to use the default name id_rsa. For a passphrase, you can either enter a password, or press return twice to leave it blank:
+
+$ ssh-keygen -t rsa
+
