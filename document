@@ -1,0 +1,11 @@
+You can install without sudo if you specify directories that you already have write permissions to. Use the following instructions for the install command to specify the installation location:
+
+Ensure that the paths you provide to the -i and -b parameters contain no volume name or directory names that contain any space characters or other white space characters. If there is a space, the installation fails.
+
+--install-dir or -i – This option specifies the directory to copy all of the files to.
+
+The default value is /usr/local/aws-cli.
+
+--bin-dir or -b – This option specifies that the main aws program in the install directory is symbolically linked to the file aws in the specified path. You must have write permissions to the specified directory. Creating a symlink to a directory that is already in your path eliminates the need to add the install directory to the user's $PATH variable.
+
+The default value is /usr/local/bin.
