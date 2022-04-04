@@ -9,3 +9,5 @@ The default value is /usr/local/aws-cli.
 --bin-dir or -b – This option specifies that the main aws program in the install directory is symbolically linked to the file aws in the specified path. You must have write permissions to the specified directory. Creating a symlink to a directory that is already in your path eliminates the need to add the install directory to the user's $PATH variable.
 
 The default value is /usr/local/bin.
+
+Today is Monday
